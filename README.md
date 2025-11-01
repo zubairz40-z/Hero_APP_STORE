@@ -1,16 +1,24 @@
-# React + Vite
+Project Name: Z-App Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Description: 
+Z-App Store is a react-based web application that allows users to explore, install, and manage numerous types of apps for our daily use.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#Features
+-View all available apps with their descriptions and detail.
+-Install any app we want and save them.
+-Manage Installed apps such as we can also uninstall them if we do not need them.
+-Sort apps by their sizes.
+-Clean Error page shows up if somethings goes wrong.
+-Responsive UI for both phones and big devices.
 
-## React Compiler
+#Techonologies
+-Html, Css, JavaScript
+-React
+-React Router
+-Tailwind Css
+-Lucide React
+-Vite
+-Locale Storage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
