@@ -10,16 +10,27 @@ const AppDetails = () => {
   const appId = parseInt(id);
   const app = appsData.find((a) => a.id == appId);
 
-  const [installed, setInstalled] = useState(false);
+  const installedApps = JSON.parse(
+    localStorage.getItem('installedApps') || '[]'
+  );
+
+  const isInstalledAlready = installedApps.some((a) => a.id === appId);
+
+  const [installed, setInstalled] = useState(isInstalledAlready);
 
   if (!app) {
     return <p className="text-center mt-10 font-bold">App Not Found</p>;
   }
 
   const handleInstall = () => {
-    setInstalled(true);
-    toast.success(`${app.title} installed successfully!`);
-    alert(`${app.title} is installed succesfully`);
+    if (!installed) {
+      const updatedApps = [...installedApps, app];
+      localStorage.setItem('installedApps', JSON.stringify(updatedApps));
+
+      setInstalled(true);
+      toast.success(`${app.title} installed successfully!`);
+      alert('App Installed successfully');
+    }
   };
 
   const chartData = app.ratings.map((r) => ({
