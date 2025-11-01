@@ -73,10 +73,13 @@ const Apps = () => {
               </Link>
             ))
           ) : (
-            <p className="text-center col-span-4 text-gray-500 font-bold ">
+            <p className="text-center col-span-4 text-gray-500 font-bold text-2xl mb-6 ">
               No App Found
             </p>
           )}
+        </div>
+        <div className="flex flex-col items-center text-center justify-center min-h-[50vh]">
+          <img src=".././Assets/App-Error.png" alt="" />
         </div>
       </section>
     </div>
