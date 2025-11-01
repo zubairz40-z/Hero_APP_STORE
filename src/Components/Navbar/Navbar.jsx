@@ -33,7 +33,9 @@ const Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <Link to="/apps">Apps</Link>
-            <li></li>
+            <li>
+              <Link to="installed">Installed Apps</Link>
+            </li>
           </ul>
         </div>
         <a className="flex items-center gap-1 text-2xl font-bold">
