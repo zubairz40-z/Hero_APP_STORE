@@ -6,7 +6,7 @@ const Footer = () => {
       <aside>
         <img
           className="w-15 h-15"
-          src=".././Assets/logo.png"
+          src="/Assets/logo.png"
           alt="logo"
           srcset=""
         />

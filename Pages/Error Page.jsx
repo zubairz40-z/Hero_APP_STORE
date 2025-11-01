@@ -10,7 +10,7 @@ const ErrorPage = () => {
       <section className="flex flex-col items-center justify-center min-h-[80vh]">
         <div className="max-w-2xl">
           <img
-            src=".././Assets/error-404.png"
+            src="/Assets/error-404.png"
             alt=""
             srcset=""
             className="w-64 md:w-96 mx-auto mb-8"

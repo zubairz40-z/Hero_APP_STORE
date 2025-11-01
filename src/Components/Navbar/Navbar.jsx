@@ -39,7 +39,7 @@ const Navbar = () => {
         <a className="flex items-center gap-1 text-2xl font-bold">
           <img
             className="w-8 h-8"
-            src=".././Assets/logo.png"
+            src="/Assets/logo.png"
             alt="logo"
             srcset=""
           />{' '}
@@ -93,7 +93,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <Link
-          to="https://github.com/zubairz40-z"
+          to="https://github.com/"
           className="btn text-white bg-gradient-to-r from-[rgba(99,46,227,1)] to-[rgba(159,98,242,1)] hover:scale-105 transition-transform duration-200"
         >
           <Github className="w-5 h-5" /> Contribute

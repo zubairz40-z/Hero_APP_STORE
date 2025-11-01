@@ -5,7 +5,6 @@ import App from './App.jsx';
 import router from './Route/Route';
 import { RouterProvider } from 'react-router';
 import MainLayout from '../Layouts/MainLayout.jsx';
-import { configureStore, createSlice } from '@reduxjs/toolkit';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

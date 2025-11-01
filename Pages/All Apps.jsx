@@ -79,7 +79,7 @@ const Apps = () => {
           )}
         </div>
         <div className="flex flex-col items-center text-center justify-center min-h-[50vh]">
-          <img src=".././Assets/App-Error.png" alt="" />
+          <img src="/Assets/App-Error.png" alt="" />
         </div>
       </section>
     </div>
